@@ -1,0 +1,8 @@
+configMap:
+  mongodbUrl: "mongodb://mongodb:27017/catalogue"
+deployment:
+  replicas: 2
+  imageRepo: joindevops/catalogue
+  imageVersion: 4.0.0
+hpa:
+  cpuPercentage: 80
