@@ -1,4 +1,4 @@
-configMap:
+configmap:
   mongodbUrl: "mongodb://mongodb:27017/catalogue"
 deployment:
   replicas: 2
